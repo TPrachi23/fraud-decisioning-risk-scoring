@@ -1,0 +1,10 @@
+scenario,driver,value,notes
+base,tpv_usd,1000000000.0,Annual total payment volume processed ($)
+base,txn_count,25000000.0,Annual transaction count
+base,take_rate_bps,85.0,Blended take rate (bps of TPV)
+base,revenue_per_txn,0.03,Additional revenue per txn ($)
+base,network_cost_bps,42.0,Network/interchange/partner cost (bps of TPV)
+base,processing_cost_per_txn,0.07,Processing cost per txn ($)
+base,loss_rate_bps,18.0,Losses: fraud/chargebacks/credit losses (bps of TPV)
+base,opex_fixed_usd,55000000.0,Fixed opex (annual $)
+base,opex_variable_pct_rev,0.18,Variable opex as % of revenue (0-1)
